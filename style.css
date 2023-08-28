@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("/thermometer-sun-high-degres--hot-summer-day--high-summer-temperatures-1010691618-2a5ca45876424dffbef441d73ae896b8.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px 10px; 
+  font-weight: 600;
+  font-size: 1em;
+  text-align: center;
+
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.result {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+p {
+  margin: 0;
+}
+
+
+#fromUnit{
+  border-radius: 5px;
+  font-size: 1.5em;
+  font-weight: 600;
+
+}
+
+#toUnit{
+   border-radius: 5px;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+ 
+
+button:hover{
+  background-color: #037505;
+}
